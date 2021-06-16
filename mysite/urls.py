@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.urls.conf import include
 
+#urlpatterns에 추가하여 해당 폴더에 접근할 수 있도록 함
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
